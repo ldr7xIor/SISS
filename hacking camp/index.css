@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Gaegu&display=swap');
+        * {font-family: "Black Han Sans", sans-serif;}
+        #container1 {
+            background-color: rgb(255, 112, 101);
+            text-decoration: none;
+            color: white;
+        }
+        .nav-header {text-align: center;}
+        .nav-brand {
+            justify-content:  center;
+            font-size: 30px; 
+        }
+        .nav {
+            list-style-type: none;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: nowrap;
+        }
+        .nav li {
+            padding: 10px;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+        }
+        pre {
+            border-radius: 10px;
+            padding: 10px;
+            background-color: #4986ff;
+            color: white;
+        }
+        .form-inline {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .input-group { display: flex;}
+        button {
+            font-size: 15px;
+            margin-top: 4px;
+            background-color: #4986ff;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            padding: 10px 10px;
+        }
+        label {display: none;}
